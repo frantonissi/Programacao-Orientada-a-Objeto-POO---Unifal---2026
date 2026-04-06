@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aula3/Aula3.iml" filepath="$PROJECT_DIR$/Aula3/Aula3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Aula4/Aula4.iml" filepath="$PROJECT_DIR$/Aula4/Aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Banco/Banco.iml" filepath="$PROJECT_DIR$/Banco/Banco.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacao-Orientada-a-Objeto-POO---Unifal---2026.iml" filepath="$PROJECT_DIR$/.idea/Programacao-Orientada-a-Objeto-POO---Unifal---2026.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VeiculoCarga/VeiculoCarga.iml" filepath="$PROJECT_DIR$/VeiculoCarga/VeiculoCarga.iml" />
     </modules>
   </component>
 </project>
