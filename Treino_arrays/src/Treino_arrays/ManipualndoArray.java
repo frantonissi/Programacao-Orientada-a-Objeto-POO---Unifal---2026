@@ -3,7 +3,7 @@ package Treino_arrays;
 public class ManipualndoArray {
 
     private int[] array1;
-//    private int[] array2 = array1;
+    private int[] array2 = array1;
     private int[][] matriz = new int[5][];
 
     public int[] getArray1() {
@@ -14,13 +14,13 @@ public class ManipualndoArray {
         this.array1 = array1;
     }
 
-//    public int[] getArray2() {
-//        return array2;
-//    }
-//
-//    public void setArray2(int[] array2) {
-//        this.array2 = array2;
-//    }
+    public int[] getArray2() {
+        return array2;
+    }
+
+    public void setArray2(int[] array2) {
+        this.array2 = array2;
+    }
 
     public  void exibirArray1(){
 
@@ -33,23 +33,23 @@ public class ManipualndoArray {
     }
 
 
-//    public void exibirArray2(int [][] v){
-//
-//        for(int i = 0; i < array2.length; i++){
-//            System.out.print(array2[i]);
-//            if((i + 1) < array2.length){
-//                System.out.print(',');
-//            }
-//        }
-//    }
+    public void exibirArray2(int [][] v){
 
-//    public void TesteArrays(){
-//
-//        for(int i = 0; i < array2.length; i = i + 2){
-//            array2[i] = i;
-//        }
-//
-//    }
+        for(int i = 0; i < array2.length; i++){
+            System.out.print(array2[i]);
+            if((i + 1) < array2.length){
+                System.out.print(',');
+            }
+        }
+    }
+
+    public void TesteArrays(){
+
+        for(int i = 0; i < array2.length; i = i + 2){
+            array2[i] = i;
+        }
+
+    }
 
     public void preencherMatrizs() {
 
