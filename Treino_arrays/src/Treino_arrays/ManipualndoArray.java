@@ -73,11 +73,7 @@ public class ManipualndoArray {
             for(int j = 0; j < matriz[i].length; j++){
 
                 System.out.print(matriz[i][j]); // Imprime o número
-
-                // Olha a sua lógica do exibirArray1 aqui!
-                // Só que agora usando o 'j' e o tamanho da linha atual (matriz[i].length)
             }
-
             // Depois que terminar de imprimir todos os números daquela linha,
             // dá um "Enter" (println vazio) para a próxima linha ir para baixo
             System.out.println();
